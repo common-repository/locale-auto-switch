@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "locale-auto-switch/las-links-block",
+  "title": "Locale Auto Switch",
+  "category": "widgets",
+  "icon": "translation",
+  "description": "Automatically switch the locale according to the locale of the browser.",
+  "keywords": [
+	"browser",
+	"languages",
+	"locale"
+  ],
+  "version": "1.0.3",
+  "textdomain": "locale-auto-switch",
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
